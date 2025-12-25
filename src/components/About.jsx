@@ -11,24 +11,28 @@ const About = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="bg-gray-800 rounded-lg border border-gray-700 p-8">
-            <div className="prose prose-invert max-w-none">
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I am a dedicated System Developer passionate about building strong, scalable, 
-                and easy-to-use web applications. I specialize in creating high-performance systems 
-                that solve complex technical challenges.
+            <h2 className="text-3xl font-bold text-cyan-500 mb-6">About Me</h2>
+            
+            <div className="space-y-6 text-gray-300">
+              <p className="leading-relaxed">
+                I'm currently pursuing my Bachelor of Science in Information Technology at 
+                Saint Columban College, where I've been developing my skills in system 
+                development and software engineering. My journey has taken me from 
+                designing wireframes to building full-stack applications.
               </p>
               
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                My approach focuses on clean and simple solutions, ensuring that every project 
-                I work on is easy to maintain, efficient, and user-focused. I enjoy turning 
-                complex requirements into simple solutions.
+              <p className="leading-relaxed">
+                As a freelance System Developer, I've worked on various projects including 
+                web-based systems. I specialize in creating 
+                user-friendly interfaces and robust back-end solutions that solve 
+                real-world challenges.
               </p>
               
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                Whether it's building a new system from scratch or improving existing 
-                applications, I bring attention to detail and a commitment to excellence 
-                to every project. I'm always eager to learn new things that can make 
-                my work better.
+              <p className="leading-relaxed">
+                What sets me apart is my attention to detail and my commitment to creating 
+                solutions that are not only functional but also intuitive and maintainable. 
+                I believe in writing clean code and following best practices to ensure 
+                long-term success for every project.
               </p>
             </div>
           </div>
