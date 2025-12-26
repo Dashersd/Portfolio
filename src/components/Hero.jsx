@@ -47,7 +47,7 @@ const Hero = () => {
         animate="visible"
         className="max-w-7xl mx-auto w-full"
       >
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-6 items-center">
           {/* Left Side - Text Content */}
           <div className="text-left">
             <motion.p
@@ -148,7 +148,7 @@ const Hero = () => {
           {/* Right Side - Profile Picture */}
           <motion.div
             variants={itemVariants}
-            className="flex justify-center md:justify-end"
+            className="flex justify-center md:justify-center"
           >
             <img
               src="/Profile.png"
